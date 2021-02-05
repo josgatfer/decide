@@ -19,3 +19,8 @@ script:
   - coverage run --branch --source=. ./manage.py test --keepdb --with-xunit
   - coverage xml
   - python-codacy-coverage -r coverage.xml
+deploy:
+  provider: heroku
+  app: practica-decide
+  strategy: git
+  api_key: 7deeb0fb-be86-4706-a9e3-27009b1c49c5
