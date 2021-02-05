@@ -27,8 +27,6 @@ deploy:
       secure: JDha8dSzDKJaY6FUkKgXcBh4FOssh65AmrfFczPiSW+/SZ+2COevGA88ft2lsP7kdVaRYuWTuBOwAF2Mj0jCQ6OBo3L24ZdH1y5tfD6wP0L5sVG4iYYuSRaBmz7Nzow88VEDi3YXbc5Y0V4BsY0Z0f0Gv9RplLDvDLRzoOzJzrGcbkH1MzTLm2WRKYvgFYiB3v6zCellJCadSZaBpD5cYPLKBnOf1UUFPgXVK9zgOA0hYR451Cpw2SwavYmWSzqvv/Y70tEKunmh062SMS3Dbeh2Ypm8fzldM6wuVx8hlkhCkcg7ubtSl0U9mGEPGFcH1Bia+fC+1k6f0lVKxMYLpH5uuRKIn8efBSwBpv+DyrVnrGqtexs7LPWtCagebuHlp/G5HBhwYt4YKiSDMUatWWoxVTnlgAETT4ycFVvxJr/CdkeeD52erKJPuDYiI9ogKdK/fr1eFkXvmddEzgGAQ0XIu+3jIp/BUsDDeDrGkYWfzUABnIVuk9+nBuA6UcFfIIvhA8umycyFPtM9jAga95wgkchvs5v+4xg09ZGEFYrY6wz/nVs50ibFpImz06sb+Fn6ALVFfs30q7h5GKKc8kpRvhLY+VmnOIfhYvea7JIVelSUeJhgtcksWkbICMVSnCfxAFWCzLqex6Dou0cRjbBMsdKxDYBx0d9Bc6WsW54=
     on:
       branch: master
-      
-
   - provider: heroku
       app: decide-experimental
       strategy: git
